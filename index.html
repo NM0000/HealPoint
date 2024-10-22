@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mental Wellness</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script defer src="assets/js/script.js"></script>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <div id="navbar"></div>
+      <!-- Navbar loaded dynamically -->
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <h1>Welcome to Mental Wellness</h1>
+      <p>Your journey to better mental health starts here.</p>
+      <a href="blogs.html" class="btn btn-primary">Explore Blogs</a>
+    </section>
+
+    <!-- Booking Appointment -->
+    <section id="booking">
+      <h2>Book an Appointment / Book Meditation Session</h2>
+      <div class="booking-buttons">
+        <button id="bookAppointmentBtn" class="btn btn-primary">
+          Book Appointment
+        </button>
+        <button id="bookSessionBtn" class="btn btn-secondary">
+          Book Session
+        </button>
+      </div>
+    </section>
+    
+    <!-- Appointment Popup -->
+    <div id="appointmentModal" class="modal-appointment">
+      <div class="modal-content">
+        <span class="close" id="closeAppointment">&times;</span>
+        <h2>Book An Appointment Therapist</h2>
+        <form>
+          <label for="name">Your Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+          />
+    
+          <label for="therapist">Your  Therapist:</label>
+          <select id="therapist" name="therapist">
+            <option value="Therapist 1">Therapist 1</option>
+            <option value="Therapist 2">Therapist 2</option>
+          </select>
+    
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" />
+    
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" />
+    
+          <button type="submit" class="btn">Make an Appointment</button>
+        </form>
+      </div>
+    </div>
+    
+    <!-- Meditation Popup -->
+    <div id="meditationModal" class="modal-meditation">
+      <div class="modal-content">
+        <span class="close" id="closeMeditation">&times;</span>
+        <h2>Book A Meditation Center</h2>
+        <form>
+          <label for="name">Your Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+          />
+    
+          <label for="meditationCenter">Your Meditation Center:</label>
+          <select id="meditationCenter" name="meditationCenter">
+            <option value="Center 1">Center 1</option>
+            <option value="Center 2">Center 2</option>
+          </select>
+    
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" />
+    
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" />
+    
+          <button type="submit" class="btn">Book Now</button>
+        </form>
+      </div>
+    </div>
+    
+
+    <!-- Services Section -->
+    <section id="services-preview">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <div class="service-item">
+          <img src="assets/images/counseling.jpg" alt="Counseling" />
+          <h3>Counseling</h3>
+          <p>
+            One-on-one and group counseling sessions to help you navigate
+            through mental challenges.
+          </p>
+        </div>
+        <div class="service-item">
+          <img src="assets/images/group-therapy.jpg" alt="Group Therapy" />
+          <h3>Group Therapy</h3>
+          <p>
+            Join our group sessions to connect and heal in a supportive
+            environment.
+          </p>
+        </div>
+        <div class="service-item">
+          <img src="assets/images/workshops.jpg" alt="Workshops" />
+          <h3>Workshops</h3>
+          <p>
+            Participate in mental wellness workshops and skill-building
+            activities.
+          </p>
+        </div>
+      </div>
+      <a href="services.html" class="btn btn-secondary">View All Services</a>
+    </section>
+
+    <footer>
+      <p>© 2024 Mental Wellness. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

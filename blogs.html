@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs | Mental Wellness</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script defer src="assets/js/script.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+      <div id="navbar"></div>
+      <!-- Navbar loaded dynamically -->
+    </header>
+<!-- Blog Section -->
+  <section id="blogs">
+    <h1>Mental Wellness Blog</h1>
+    <p>Your source for the latest tips and information on mental wellness.</p>
+    
+    <!-- Search bar -->
+    <div class="search-bar">
+      <input type="text" placeholder="Search blog posts..." />
+      <button>Search</button>
+    </div>
+
+    <!-- Categories Dropdown -->
+    <div class="categories-dropdown">
+      <h3>Categories</h3>
+      <div class="dropdown-wrapper">
+          <select id="categorySelect" onchange="categorySelected()">
+            <option value="">Select Category</option>
+            <option value="self-preservation">Self Preservation</option>
+            <option value="stress-relief">Stress Relief</option>
+            <option value="depression">Depression</option>
+            <option value="patience">Patience</option>
+            <option value="grief">Grief</option>
+            <option value="self-awareness">Self Awareness</option>
+            <option value="self-esteem">Self Esteem</option>
+            <option value="peace">Peace</option>
+            <option value="encouragement">Encouragement</option>
+            <option value="aspirations">Aspirations</option>
+          </select>
+          <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+    <!-- Latest Blog Posts -->
+    <h2>Latest Blogs</h2>
+    <div class="blog-container">
+      <div class="blog-card">
+          <div class="card-image" style="background-image: url('assets/images/blog_1.png');"></div>
+          <h2>Four Decades of Resilience: One Family's Perspective on Our...</h2>
+          <a href="#" class="read-more">Read More ›</a>
+      </div>
+      <div class="blog-card">
+          <div class="card-image" style="background-image: url('assets/images/blog_2.png');"></div>
+          <h2>From Gang Member to Mental Health Advocate</h2>
+          <a href="#" class="read-more">Read More ›</a>
+      </div>
+      <div class="blog-card">
+          <div class="card-image" style="background-image: url('assets/images/blog_3.jpg');"></div>
+          <h2>How EMDR Healed My Trauma</h2>
+          <a href="#" class="read-more">Read More ›</a>
+      </div>
+      <div class="blog-card">
+          <div class="card-image" style="background-image: url('assets/images/blog_4.jpg');"></div>
+          <h2>How Research Is Advancing Our Understanding of OCD</h2>
+          <a href="#" class="read-more">Read More ›</a>
+      </div>
+      <div class="blog-card">
+          <div class="card-image" style="background-image: url('assets/images/blog_5.png');"></div>
+          <h2>Finding Treatment and Breaking the Cycle of ...</h2>
+          <a href="#" class="read-more">Read More ›</a>
+      </div>
+      <div class="blog-card">
+          <div class="card-image" style="background-image: url('assets/images/blog_6.png');"></div>
+          <h2>The Power of Insight Building for People with Mental Illness</h2>
+          <a href="#" class="read-more">Read More ›</a>
+      </div>
+      <div class="blog-card">
+          <div class="card-image" style="background-image: url('assets/images/blog_7.jpg');"></div>
+          <h2>Strengthening Mental Health Support for Students</h2>
+          <a href="#" class="read-more">Read More ›</a>
+      </div>
+
+    <!-- Social Media Links -->
+    <div class="social-media">
+      <h3>Follow Us</h3>
+      <ul>
+        <li>
+          <a href="https://facebook.com" target="_blank">
+            <img src="assets/images/facebook.png" alt="Facebook" /> Facebook
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank">
+            <img src="assets/images/x.png" alt="Twitter" /> Twitter
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com" target="_blank">
+            <img src="assets/images/instagram.png" alt="Instagram" /> Instagram
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </section>
+
+    <footer>
+        <p>© 2024 Mental Wellness. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
